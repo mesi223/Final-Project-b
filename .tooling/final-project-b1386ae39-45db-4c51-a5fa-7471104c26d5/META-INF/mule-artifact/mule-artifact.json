@@ -1,0 +1,28 @@
+{
+  "configs": [
+    "final-project-meseret-b.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:final-project-b:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "Dev.yaml",
+        "final-project-meseret-b.xml",
+        "HTTP.yaml",
+        "log4j2.xml",
+        "Prod.yaml",
+        "Test.yaml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
